@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loginScreen{
+    position : relative;
+    height: 90vh;
+    background: url(../image/netflixCover.jpg) center no-repeat;
+    background-size: cover;
+}
+.loginScreen_logo{
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.loginScreen_body > h4 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.loginScreen_body > h5 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.loginScreen_body > h1 {
+    font-size: 3.125rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.loginScreen_body{
+    left: 20px;
+    position: absolute;
+    width: 85%;
+    top: 35%;
+    z-index: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+.loginScreen_button{
+    z-index: 1;
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(
+        to top, 
+      rgba(0, 0, 0, 0.8)0%,
+      rgba(0,0,0,0.2)60%,
+      rgba(0, 0, 0, 0.8)100%);
+}
+.loginScreen_input{
+    width: 100%;
+}
+.loginScreen_input > form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.loginScreen_input > form > input{
+    padding: 25px;
+    height: 40px;
+    width: 100%;
+    border: 0.5px solid rgb(101, 98, 98);
+    border-radius: 3px;
+    background-color: rgb(10 9 9 / 50%);
+    color: white;
+    min-width: 300px;
+    max-width: 350px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-right: 8px;
+}
+.loginScreen_input > form > input::placeholder{
+    color: rgb(201, 191, 191);
+}
+.login_getstarted{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+/* footer part */
+.hr{
+    height: 7px;
+    background-color: rgb(50, 49, 49);
+}
+.containers{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+}
+.login_footer{
+    z-index: 0;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* gap: 1.5rem; */
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.text > h2
+{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+.text > span{
+    font-size: 1.5rem;
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+  .navb{
+    background-color: black;
+  }
+  .nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 38px;
+    padding: 10px;
+    align-items: center;
+    z-index: 1;
+
+    /* animation */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+@media (max-width:1024px){
+   .img > img{
+       max-width: 750px;
+       max-height: 350px;
+   }
+}
+@media (max-width:900px){
+    .loginScreen_body > h1 {
+        font-size: 2.8rem;
+    }
+    .loginScreen_body > h4{
+        font-size: 1.8rem;
+    }
+    .loginScreen_gradient{
+        height: 70vh;
+    }
+    .loginScreen{
+        height: 70vh;
+    }
+    .loginScreen_body{
+        top: 28%;
+    }
+     .login_footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text > h2{
+        font-size: 2.5rem;
+    }
+    .text > span{
+        font-size: 1.5rem;
+        margin: 0.1rem 0 0.5rem;
+        text-align: justify;
+    }
+    .img > img{
+        max-width: 750px;
+        max-height: 320px;
+    }
+    .rev{
+         flex-direction: column-reverse;
+     }
+}
+@media (max-width:800px){
+    .loginScreen_gradient{
+        height: 70vh;
+    }
+    .loginScreen{
+        height: 70vh;
+    }
+    .loginScreen_body{
+        top: 22%;
+    }
+    .login_getstarted{
+        margin-top: 5px;
+    }
+     .login_footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text > h2{
+        font-size: 2rem;
+    }
+    .text > span{
+        font-size: 1rem;
+        margin: 0.5rem 0 1rem;
+        text-align: justify;
+    }
+    .img > img{
+        max-width: 500px;
+        max-height: 300px;
+    }
+    .rev{
+         flex-direction: column-reverse;
+     }
+}
+@media (max-width:500px){
+    .loginScreen_body > h1 {
+        font-size: 2rem;
+    }
+    .loginScreen_body > h4{
+        font-size: 1.2rem;
+    }
+.loginScreen_gradient{
+    height: 70vh;
+}
+    .loginScreen{
+        height: 70vh;
+    }
+    .loginScreen_body{
+        top: 20%;
+    }
+    .login_getstarted{
+        margin-top: 10px;
+    }
+    .login_footer{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text > h2{
+        font-size: 2rem;
+    }
+    .text > span{
+        font-size: 1rem;
+        margin: 0.5rem 0 1rem;
+        text-align: justify;
+    }
+    .img > img{
+        max-width: 500px;
+        max-height: 220px;
+    }
+    .rev{
+         flex-direction: column-reverse;
+     }
+    /* .video-container {
+        max-width: 400px;
+        max-height: 320px;
+        left: 0;
+     }
+     .image-overlay { */
+        /* position: absolute;
+        top: 0; 
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;   */
+        /* max-width: 300px;
+        max-height: 320px;
+        left: 0rem;
+      } */
+}
+
+
+/* video in background */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+    display: grid;
+    flex-shrink: 1;
+  }
+  
+  .video-bg {
+    position: absolute;
+    top: 6.9rem;
+    left: 5.3rem;
+    width: 75%;
+    height: 50%;
+    object-fit: cover;
+    z-index: -2;  
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;  
+  }
+  .video-bg2{
+    position: absolute;
+    top: 4rem;
+    left: 7.8rem;
+    width: 61%;
+    height: 50%;
+    object-fit: cover;
+    z-index: -2;
+  }
+
+  /* .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;  
+    overflow: hidden;
+    display: grid;
+    flex-shrink: 1;
+  }
+  
+  .video-bg,
+  .video-bg2 {  
+    position: absolute;
+    top: 6.9rem;
+    left: 5.3rem;
+    width: 75%;  
+    height: 50%;  
+    object-fit: cover;
+    z-index: -2;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+  
+   
+  @media screen and (max-width: 768px) {
+    .video-bg,
+    .video-bg2 {
+      top: 4rem;
+      left: 7.8rem;
+      width: 61%;  
+      height: 30%;  
+    }
+  } */
+
+
+
+
+  /* ---------------get started k pass wala input----------- */
+
+    .loginScreen_input > form > .inputdata {
+    width: 100%;
+    min-width: 300px;
+    max-width: 350px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: rgba(47, 45, 54, 0.2);
+}
+
+.loginScreen_input > form > .inputdata > input{
+    width: 100%;
+    color: white;
+    margin-right: 8px; 
+    min-width: 300px;
+    max-width: 350px;
+  background-color: rgb(10 9 9 / 50%);
+  display: block;
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 20px;
+  padding-top: 30px;
+  height: 46px;
+  border: none;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(101, 98, 98);
+  border-radius: 4px;
+}
+.loginScreen_input > form > .inputdata label {
+     text-align: left;
+     width: 90%;
+    color: rgb(163, 159, 159);
+  position: absolute;
+  pointer-events: none;
+  font-weight: 600;
+  background: transparent;
+  bottom: 15px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+.loginScreen_input > form > .inputdata input:focus,
+.loginScreen_input > form > .inputdata input:valid{
+    outline: 2px solid white;
+}
+
+.loginScreen_input > form > .inputdata input:focus ~ label,
+.loginScreen_input > form > .inputdata input:valid ~ label{
+  transform: translateY(-16px);
+  font-size: 12px;
+  color: rgb(163, 159, 159);
+}
+.loginScreen_input > form > .inputdata input.has-content + label{
+    transform: translateY(-16px);
+  font-size: 12px;
+  color: rgb(163, 159, 159);
+}

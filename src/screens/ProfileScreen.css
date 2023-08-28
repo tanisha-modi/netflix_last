@@ -1,0 +1,94 @@
+.profileScreen{
+    height: 100vh;
+    color: white;
+    width: 100%;
+}
+.profileScreen_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* justify-content: center;
+    align-items: center; */
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 8%;
+    max-width: 800px;     
+}
+.profileScreen_body > h1 {
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+.profileScreen_info{
+    display: flex;
+}
+.profileScreen_info > img{
+    height: 100px;
+}
+.profileScreen_details{
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+}
+.profileScreen_details > h2{
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.profileScreen_signOut{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.profileScreen_plans{
+    margin-top: 20px;
+}
+.profileScreen_plans > h3{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+.profileScreen_plans > h5{
+    color: gray;
+}
+.plan_row{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(235, 230, 230);
+}
+.plan_row > .row_item >h2{
+    font-size: 0.9rem;
+}
+.plan_btn{
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.current_btn{
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: gray;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.profileScreen_plans > .plan_row > h6{
+    font-size: 0.8rem;
+}
