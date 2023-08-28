@@ -1,8 +1,9 @@
 .signUpScreen{
     min-width: 250px;
     width: 20%;
-    padding: 60px;
-    padding-bottom: 142px;
+    height: 60vh;
+    padding: 35px;
+    padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     background: rgba(0, 0, 0, 0.75);
@@ -67,12 +68,26 @@ a{
 
 @media (max-width:900px) {
     .signUpScreen{
-        margin-top: -130px
+        margin-top: -100px;
+        padding-bottom: 30px;
+        height: 45vh;
     }
 }
-@media (max-width:400px) {
+@media (max-width:500px) {
     .signUpScreen{
-        margin-top: -130px;
+        margin-top: -70px;
         min-width: 200px;
+        padding-right: 60px;
+        margin-left: 10px;
+    }
+    .signUp_link{
+        font-size: 15px;
+    }
+}
+@media (max-width:380px) {
+    .signUpScreen{
+        margin-top: -80px;
+        min-width: 200px;
+        margin-left: 6px;
     }
 }
