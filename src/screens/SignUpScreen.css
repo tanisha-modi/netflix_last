@@ -79,7 +79,7 @@ a{
         min-width: 200px;
         padding-right: 60px;
         margin-left: 10px;
-        height: 45vh;
+        height: 60vh;
     }
 }
 @media (max-width:380px) {
@@ -87,6 +87,6 @@ a{
         margin-top: -80px;
         min-width: 200px;
         margin-left: 6px;
-        height: 45vh;
+        height: 60vh;
     }
 }
