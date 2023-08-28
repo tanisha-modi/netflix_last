@@ -1,7 +1,7 @@
 .signUpScreen{
     min-width: 250px;
     width: 20%;
-    padding: 70px;
+    padding: 60px;
     padding-bottom: 142px;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +49,7 @@
 }
 .signUp_link{
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 .signUp_link:hover{
     cursor: pointer;
@@ -68,5 +68,11 @@ a{
 @media (max-width:900px) {
     .signUpScreen{
         margin-top: -130px
+    }
+}
+@media (max-width:400px) {
+    .signUpScreen{
+        margin-top: -130px;
+        min-width: 200px;
     }
 }

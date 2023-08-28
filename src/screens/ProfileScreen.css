@@ -1,5 +1,5 @@
 .profileScreen{
-    height: 100vh;
+    height: 120vh;
     color: white;
     width: 100%;
 }
@@ -91,4 +91,16 @@
 }
 .profileScreen_plans > .plan_row > h6{
     font-size: 0.8rem;
+}
+@media (max-width:400px){
+  .profileScreen_body{
+    margin-left: 20px;
+  }  
+  .plan_row > .row_item >h2{
+    font-size: 0.5rem;
+}
+.plan_btn, .current_btn{
+    padding: 5px 8px;
+    font-size: 0.6rem;
+}
 }
