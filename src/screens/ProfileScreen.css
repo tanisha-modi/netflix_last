@@ -1,5 +1,5 @@
 .profileScreen{
-    height: 120vh;
+    height: 100vh;
     color: white;
     width: 100%;
 }
@@ -9,6 +9,7 @@
     width: 50%;
     /* justify-content: center;
     align-items: center; */
+    padding-top: 15px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 8%;
@@ -92,7 +93,7 @@
 .profileScreen_plans > .plan_row > h6{
     font-size: 0.8rem;
 }
-@media (max-width:400px){
+@media (max-width:500px){
   .profileScreen_body{
     margin-left: 20px;
   }  
