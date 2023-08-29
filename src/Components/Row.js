@@ -58,6 +58,9 @@ function Row({title, fetchUrl, isLargeRow = false}) {        //props
         ))
       )}
     </div>
+    {/* <p
+            style={{ marginRight: "5px" }}
+     >{movies.name || movies.original_name || movies.original_title}</p> */}
     {trailerUrl && <YouTube videoId={trailerUrl} opts={opts}/>}
     </div>
   )
