@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^14.4.3",
     "axios": "^1.5.0",
     "firebase": "^10.3.0",
-    "movie-trailer": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
@@ -41,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "movie-trailer": "^3.0.2"
   }
 }

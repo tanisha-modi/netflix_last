@@ -9,6 +9,7 @@ import tv3 from "../image/tv3.png";
 import tv4 from "../image/tv4.png";
 import Footer from "../Components/Footer";
 import SignUpScreen from "./SignUpScreen";
+import Chamber from "../Components/Chamber";
 // import cover_photo from '../image/netflixCover.jpg';
 
 function LoginScreen() {
@@ -109,7 +110,9 @@ function LoginScreen() {
           <div className="containers">
             <div className="hr"></div>
             <div className="login_footer">
-              <div className="text">
+              <Chamber text="Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                  Blu-ray players and more." heading="Enjoy on your TV" pic={tv} vid={netflix1}/>
+              {/* <div className="text">
                 <h2>Enjoy on your TV</h2>
                 <span>
                   Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
@@ -124,11 +127,12 @@ function LoginScreen() {
                     Your browser does not support the video tag.
                   </video>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="hr"></div>
             <div className="login_footer rev">
-              <div className="img">
+            <Chamber text="Save your favourites easily and always have something to" heading="Download your shows to watch offline" pic={tv2} rev={true}/>
+              {/* <div className="img">
                 <img src={tv2} alt="" />
               </div>
               <div className="text">
@@ -137,11 +141,13 @@ function LoginScreen() {
                   Save your favourites easily and always have something to
                   watch.
                 </span>
-              </div>
+              </div> */}
             </div>
             <div className="hr"></div>
             <div className="login_footer">
-              <div className="text">
+            <Chamber text="Stream unlimited movies and TV shows on your phone, tablet,
+                  laptop, and TV." heading="Watch everywhere" pic={tv3} vid={netflix2} v2={true}/>
+              {/* <div className="text">
                 <h2>Watch everywhere</h2>
                 <span>
                   Stream unlimited movies and TV shows on your phone, tablet,
@@ -156,11 +162,12 @@ function LoginScreen() {
                     Your browser does not support the video tag.
                   </video>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="hr"></div>
             <div className="login_footer rev">
-              <div className="img">
+            <Chamber text="Save your favourites easily and always have something to" heading="Download your shows to watch offline" pic={tv4} rev={true}/>
+              {/* <div className="img">
                 <img src={tv4} alt="" />
               </div>
               <div className="text">
@@ -169,7 +176,7 @@ function LoginScreen() {
                   Send children on adventures with their favourite characters in
                   a space made just for them—free with your membership.
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         )}

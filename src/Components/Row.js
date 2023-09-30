@@ -12,7 +12,7 @@ function Row({title, fetchUrl, isLargeRow = false}) {        //props
 
    useEffect(() => {
     async function fetchData(){
-      const request = await axios.get(fetchUrl);
+      const request = await axios.get(fetchUrl); 
       setMovies(request.data.results);
       return request;
     }
@@ -29,7 +29,7 @@ function Row({title, fetchUrl, isLargeRow = false}) {        //props
     }
   };
 
-  const handleClick = (movie) => {
+  const handleClick = async (movie) => {
     if(trailerUrl){
       setTrailerUrl('');
     }else{
@@ -39,6 +39,17 @@ function Row({title, fetchUrl, isLargeRow = false}) {        //props
         setTrailerUrl(urlParams.get('v'));
       }).catch(error => console.log(error)); 
     }
+    // try {
+    //   const url = await movieTrailer(movie?.name || "");
+    //   const urlParams = new URLSearchParams(new URL(url).search);
+    //   const videoId = urlParams.get('v');
+    //   if (videoId) {
+    //     const youtubeUrl = `https://www.youtube.com/watch?v=${videoId}`;
+    //     setTrailerUrl(youtubeUrl);
+    //   }
+    // } catch (error) {
+    //   console.log(error);}
+    // }
   }
   return (
     <div className='row'>
