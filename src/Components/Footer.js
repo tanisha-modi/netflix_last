@@ -10,25 +10,25 @@ function Footer() {
         {/* <!-- panel2 --> */}
         <div className="foot-panel2">
           <ul>
-            <a href="https://help.netflix.com/en/node/412">FAQ</a>
-            <a href="https://media.netflix.com/en/">Media Centre</a>
-            <a href="https://devices.netflix.com/en/">Ways to Watch</a>
+            <a href="https://help.netflix.com/en/node/412" target="_blank" rel="noreferrer">FAQ</a>
+            <a href="https://media.netflix.com/en/" target="_blank" rel="noreferrer">Media Centre</a>
+            <a href="https://devices.netflix.com/en/" target="_blank" rel="noreferrer">Ways to Watch</a>
             <a href="/">Cookie Preferences</a>
-            <a href="https://fast.com/">Speed Test</a>
+            <a href="https://fast.com/" target="_blank" rel="noreferrer">Speed Test</a>
           </ul>
           <ul>
-            <a href="https://help.netflix.com/en/">Help Centre</a>
-            <a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</a>
-            <a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a>
-            <a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a>
-            <a href="https://help.netflix.com/legal/notices">Legal Notices</a>
+            <a href="https://help.netflix.com/en/" target="_blank" rel="noreferrer">Help Centre</a>
+            <a href="https://ir.netflix.net/ir-overview/profile/default.aspx" target="_blank" rel="noreferrer">Investor Relations</a>
+            <a href="https://help.netflix.com/legal/termsofuse" target="_blank" rel="noreferrer">Terms of Use</a>
+            <a href="https://help.netflix.com/legal/corpinfo" target="_blank" rel="noreferrer">Corporate Information</a>
+            <a href="https://help.netflix.com/legal/notices" target="_blank" rel="noreferrer">Legal Notices</a>
           </ul>
           <ul>
             <a href="/">Account</a>
-            <a href="https://jobs.netflix.com/">Jobs</a>
-            <a href="https://help.netflix.com/legal/privacy">Privacy</a>
-            <a href="https://help.netflix.com/en/contactus">Contact Us</a>
-            <a href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a>
+            <a href="https://jobs.netflix.com/" target="_blank" rel="noreferrer">Jobs</a>
+            <a href="https://help.netflix.com/legal/privacy" target="_blank" rel="noreferrer">Privacy</a>
+            <a href="https://help.netflix.com/en/contactus" target="_blank" rel="noreferrer">Contact Us</a>
+            <a href="https://www.netflix.com/in/browse/genre/839338" target="_blank" rel="noreferrer">Only on Netflix</a>
           </ul>
         </div>
 
