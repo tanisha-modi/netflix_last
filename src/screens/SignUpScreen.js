@@ -48,7 +48,7 @@ function SignUpScreen() {
           <span className='signUp_gray'>Already have account ?<span className='signUp_link' onClick={() => setSignUp(false)}>  Sign in Now.</span></span>
           <span className="signUp_privacyLine">
             This page is protected by Google reCAPTCHA to ensure you're not a
-            bot.<a href="https://policies.google.com/privacy"> Learn more.</a>
+            bot.<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer"> Learn more.</a>
           </span>
         </form>
       ) : (
