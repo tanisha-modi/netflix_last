@@ -14,7 +14,7 @@ function SignUpScreen() {
       emailRef.current.value,
       passwordRef.current.value
     ).then((authuser) => {
-      console.log(authuser);
+      // console.log(authuser);
     }).catch(error => {
       alert(error.message);
     });
@@ -27,7 +27,7 @@ function SignUpScreen() {
       emailRef.current.value,
       passwordRef.current.value
     ).then((authuser) => {
-      console.log(authuser);
+      // console.log(authuser);
     }).catch(error => {
       alert(error.message);
     });
@@ -59,7 +59,7 @@ function SignUpScreen() {
         <button type='submit' onClick={signIn}>Sign In</button>
 
         <span className='signUp_gray'>New to Netflix?<span className='signUp_link' onClick={() => setSignUp(true)}> Sign up now.</span></span>
-        <span className='signUp_privacyLine'>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href='https://policies.google.com/privacy'> Learn more.</a></span>
+        <span className='signUp_privacyLine'>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href='https://policies.google.com/privacy' target="_blank" rel="noreferrer"> Learn more.</a></span>
       </form>
       )}
     </div>
