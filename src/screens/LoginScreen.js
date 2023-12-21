@@ -10,6 +10,7 @@ import tv4 from "../image/tv4.png";
 import Footer from "../Components/Footer";
 import SignUpScreen from "./SignUpScreen";
 import Chamber from "../Components/Chamber";
+import Accordion from "../Components/Accordion";
 // import cover_photo from '../image/netflixCover.jpg';
 
 function LoginScreen() {
@@ -166,7 +167,7 @@ function LoginScreen() {
             </div>
             <div className="hr"></div>
             <div className="login_footer rev">
-            <Chamber text="Save your favourites easily and always have something to" heading="Download your shows to watch offline" pic={tv4} rev={true}/>
+            <Chamber text="Send children on adventures with their favourite characters in a space made just for them—free with your membership." heading="Create profiles for kids" pic={tv4} rev={true}/>
               {/* <div className="img">
                 <img src={tv4} alt="" />
               </div>
@@ -181,6 +182,8 @@ function LoginScreen() {
           </div>
         )}
       </div>
+      <div className="hr"></div>
+      <Accordion/>
       <div className="hr"></div>
       <Footer />
     </div>

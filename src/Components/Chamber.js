@@ -1,6 +1,6 @@
 import React from "react";
-import tv from "../image/tv.png";
-import netflix1 from "../image/netflix1.mp4";
+// import tv from "../image/tv.png";
+// import netflix1 from "../image/netflix1.mp4";
 
 function Chamber(props) {
   return (
@@ -11,9 +11,9 @@ function Chamber(props) {
             <img src={props.pic} alt="" />
           </div>
           <div className="text">
-            <h2>Download your shows to watch offline</h2>
+            <h2>{props.heading}</h2>
             <span>
-              Save your favourites easily and always have something to watch.
+              {props.text}
             </span>
           </div>
         </>

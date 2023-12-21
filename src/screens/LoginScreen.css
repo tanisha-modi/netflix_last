@@ -150,7 +150,7 @@
     align-items: left;
     justify-content: center;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: text;
 }
 .text > h2
 {
